@@ -13,7 +13,7 @@
   "rotateSpeed": 1.8,
   "weapons": [
     {
-      "name": "diveody-cannon",
+      "name": "T6mecha-diveody-cannon",
       "top": false,
       "x": 28,
       "y": 2,
@@ -64,7 +64,7 @@
       }
     },
     {
-      "name": "diveody-missile",
+      "name": "T6mecha-diveody-missile",
       "top": true,
       "x": 16,
       "y": -6,
