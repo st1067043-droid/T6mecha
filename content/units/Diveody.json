@@ -1,1 +1,45 @@
-
+{
+  "type": "mech",
+  "name": "Diveody",
+  "description": "One of the most powerful unit",
+  "speed": 0.4,
+  "hitSize": 42,
+  "health": 65000,
+  "armor": 25,
+  "canDrown": false,
+  "mechFrontSway": 1.8,
+  "mechStepParticles": true,
+  "stepShake": 1.2,
+  "weapons": [
+    {
+      "name": "sovereign-cannon",
+      "top": false,
+      "x": 28,
+      "y": 0,
+      "reload": 12,
+      "recoil": 6,
+      "shake": 4,
+      "ejectEffect": "casing4",
+      "shootSound": "bang",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 10,
+        "damage": 280,
+        "width": 24,
+        "height": 36,
+        "lifetime": 35,
+        "pierce": true,
+        "pierceCap": 4,
+        "fragBullets": 6,
+        "fragBullet": {
+          "type": "BasicBulletType",
+          "speed": 6,
+          "damage": 65,
+          "width": 12,
+          "height": 16,
+          "lifetime": 15
+        }
+      }
+    }
+  ]
+}
