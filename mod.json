@@ -1,1 +1,8 @@
-
+{
+  "name": "serpulo-t6-mod",
+  "displayName": "Serpulo T6 Units",
+  "author": "YourName",
+  "description": "Adds T6 upgrades for all 7 Serpulo T5 units.",
+  "version": "1.0",
+  "minGameVersion": "146"
+}
