@@ -1,1 +1,41 @@
-
+{
+  "type": "Reconstructor",
+  "name": "infiniter",
+  "description": "Colossal T6 unit reconstructor. Uses molten slag and pressurized oil to reforge T5 units into T6 titans.",
+  "size": 11,
+  "health": 8500,
+  "armor": 14,
+  "constructTime": 14400,
+  "liquidCapacity": 300,
+  "itemCapacity": 2200,
+  "consumes": {
+    "power": 32,
+    "items": {
+      "items": [
+        { "item": "silicon", "amount": 1000 },
+        { "item": "surge-alloy", "amount": 1000 },
+        { "item": "titanium", "amount": 800 },
+        { "item": "phase-fabric", "amount": 500 },
+        { "item": "plastanium", "amount": 800 }
+      ]
+    },
+    "liquids": [
+      { "liquid": "slag", "amount": 1.5 },
+      { "liquid": "oil", "amount": 1.8333 }
+    ]
+  },
+  "upgrades": [
+    [ "reign", "diveody" ],
+    [ "corvus", "aurxy" ]
+  ],
+  "requirements": [
+    { "item": "lead", "amount": 4500 },
+    { "item": "silicon", "amount": 3500 },
+    { "item": "thorium", "amount": 1200 },
+    { "item": "plastanium", "amount": 1000 },
+    { "item": "surge-alloy", "amount": 850 },
+    { "item": "phase-fabric", "amount": 600 }
+  ],
+  "category": "units",
+  "research": "tetrative-reconstructor"
+}
