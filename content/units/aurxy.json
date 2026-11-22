@@ -44,8 +44,8 @@
       "parentizeEffects": true,
       "bullet": {
         "type": "LaserBulletType",
-        "length": 460,
-        "width": 52,
+        "length": 690,
+        "width": 150,
         "damage": 1650,
         "lifetime": 55,
         "healPercent": 12,
