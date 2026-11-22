@@ -103,7 +103,7 @@
       "rotate": true,
       "rotateSpeed": 20,
       "shootCone": 360,
-      "shootSound": "shock",
+      "shootSound": "spark",
       "inaccuracy": 18,
       "shoot": {
         "shots": 2,
@@ -116,7 +116,7 @@
         "lightningLength": 17,
         "lightningLengthRand": 5,
         "lightningColor": "7ae886",
-        "status": "spark",
+        "status": "shocked",
         "statusDuration": 30,
         "collidesAir": true,
         "collidesGround": true,
