@@ -15,8 +15,8 @@
     {
       "name": "diveody-cannon",
       "top": false,
-      "x": 38,
-      "y": 6,
+      "x": 42,
+      "y": 4,
       "reload": 14,
       "recoil": 7,
       "shake": 4,
@@ -66,8 +66,8 @@
     {
       "name": "diveody-missile",
       "top": true,
-      "x": 22,
-      "y": -10,
+      "x": 38,
+      "y": -12,
       "reload": 30,
       "recoil": 2,
       "shake": 1,
