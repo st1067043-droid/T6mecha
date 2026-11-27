@@ -34,15 +34,11 @@
       "reload": 280,
       "recoil": 0,
       "shake": 6,
-      "chargeSound": "lasercharge",
-      "shootSound": "laserblast",
-      "hitSoundVolume": 2.5,
-      "soundPitchMin": 0.85,
-      "soundPitchMax": 0.95,
+      "chargeSound": "aurxy-charge",
+      "shootSound": "aurxy-beam",
       "shoot": {
         "firstShotDelay": 110
       },
-      "parentizeEffects": true,
       "bullet": {
         "type": "LaserBulletType",
         "length": 460,
@@ -54,38 +50,13 @@
         "sideAngle": 20,
         "sideWidth": 1.5,
         "sideLength": 65,
-        "hitSound": "laser",
+        "hitSound": "aurxy-beam",
+        "hitSoundVolume": 2.0,
         "colors": [
           "368e5c66",
           "7ae886",
           "daffde"
         ],
-        "chargeEffect": {
-          "type": "MultiEffect",
-          "effects": [
-            {
-              "type": "WaveEffect",
-              "lifetime": 110,
-              "sizeFrom": 60,
-              "sizeTo": 0,
-              "strokeFrom": 0,
-              "strokeTo": 5,
-              "colorFrom": "7ae886",
-              "colorTo": "daffde"
-            },
-            {
-              "type": "ParticleEffect",
-              "particles": 24,
-              "lifetime": 110,
-              "length": 65,
-              "baseLength": -65,
-              "sizeFrom": 0,
-              "sizeTo": 4.5,
-              "colorFrom": "368e5c",
-              "colorTo": "daffde"
-            }
-          ]
-        },
         "shootEffect": "greenLaserChargeSmall",
         "hitEffect": "hitMeltHeal",
         "smokeEffect": "none"
@@ -105,9 +76,7 @@
       "rotate": true,
       "rotateSpeed": 20,
       "shootCone": 360,
-      "shootSound": "spark",
-      "soundPitchMin": 0.95,
-      "soundPitchMax": 1.25,
+      "shootSound": "aurxy-spark",
       "inaccuracy": 18,
       "shoot": {
         "shots": 2,
@@ -124,10 +93,10 @@
         "statusDuration": 30,
         "collidesAir": true,
         "collidesGround": true,
-        "hitSound": "spark",
-        "hitSoundVolume": 2.5,
-        "despawnSound": "spark",
-        "despawnSoundVolume": 2.5,
+        "hitSound": "aurxy-spark",
+        "hitSoundVolume": 2.0,
+        "despawnSound": "aurxy-spark",
+        "despawnSoundVolume": 2.0,
         "hitEffect": "hitLancer"
       }
     }
