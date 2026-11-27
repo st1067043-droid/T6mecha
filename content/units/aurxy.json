@@ -36,6 +36,7 @@
       "shake": 6,
       "chargeSound": "lasercharge",
       "shootSound": "laserblast",
+      "hitSoundVolume": 2.5,
       "soundPitchMin": 0.85,
       "soundPitchMax": 0.95,
       "shoot": {
@@ -124,7 +125,9 @@
         "collidesAir": true,
         "collidesGround": true,
         "hitSound": "spark",
+        "hitSoundVolume": 2.5,
         "despawnSound": "spark",
+        "despawnSoundVolume": 2.5,
         "hitEffect": "hitLancer"
       }
     }
